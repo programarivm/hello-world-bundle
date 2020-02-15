@@ -10,7 +10,6 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder('programarivm_easy_acl');
-        // $rootNode = $treeBuilder->root('programarivm_easy_acl');
 
         $treeBuilder
             ->getRootNode()
