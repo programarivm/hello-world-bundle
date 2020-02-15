@@ -1,0 +1,26 @@
+{
+    "name": "programarivm/easy-acl-bundle",
+    "description": "Easy access control list (ACL)",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "programarivm",
+            "email": "info@programarivm.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "EasyAclBundle"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programarivm\\EasyAclBundle\\": "src/"
+        }
+    }
+}
