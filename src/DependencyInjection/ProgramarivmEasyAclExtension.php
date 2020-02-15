@@ -21,6 +21,7 @@ class ProgramarivmEasyAclExtension extends Extension
         $definition = $container->getDefinition('programarivm_easy_acl.lorem_ipsum');
         if (null !== $config['word_provider']) {
             $definition->setArgument(0, new Reference($config['word_provider']));
+            $container->setAlias('programarivm_easy_acl.word_provider', $config['word_provider']);
         }
         $definition->setArgument(0, $config['unicorns_are_real']);
         $definition->setArgument(1, $config['min_sunshine']);
