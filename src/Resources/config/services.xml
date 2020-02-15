@@ -5,7 +5,12 @@
         http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="programarivm_easy_acl.easy_acl" class="Programarivm\EasyAclBundle\EasyAclBundle" public="true" />
-        <service id="Programarivm\EasyAclBundle\EasyAclBundle" alias="programarivm_easy_acl.easy_acl" public="false" />
+        <service id="programarivm_easy_acl.lorem_ipsum" class="Programarivm\EasyAclBundle\LoremIpsum" public="true">
+            <argument type="service" id="programarivm_easy_acl.word_provider" />
+        </service>
+
+        <service id="programarivm_easy_acl.word_provider" class="Programarivm\EasyAclBundle\WordProvider" />
+
+        <service id="Programarivm\EasyAclBundle\LoremIpsum" alias="programarivm_easy_acl.lorem_ipsum" public="false" />
     </services>
 </container>
