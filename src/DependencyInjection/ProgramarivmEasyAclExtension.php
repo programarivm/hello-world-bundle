@@ -13,6 +13,13 @@ class ProgramarivmEasyAclExtension extends Extension
     {
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
+
+        $configuration = $this->getConfiguration($configs, $container);
+        $config = $this->processConfiguration($configuration, $configs);
+
+        $definition = $container->getDefinition('programarivm_easy_acl.easy_acl');
+        $definition->setArgument(0, $config['unicorns_are_real']);
+        $definition->setArgument(1, $config['min_sunshine']);
     }
 
     public function getAlias()
