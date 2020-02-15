@@ -9,12 +9,6 @@
             "email": "info@programarivm.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "EasyAclBundle"
-        }
-    ],
     "require": {
         "php": ">=7.1"
     },
