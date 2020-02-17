@@ -2,11 +2,6 @@
 
 namespace Programarivm\EasyAclBundle;
 
-/**
- * Generate random "lorem ipsum" text KnpUniversity style!
- *
- * @author Ryan Weaver <ryan@knpuniversity.com>
- */
 class LoremIpsum
 {
     /**
