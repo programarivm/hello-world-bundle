@@ -24,10 +24,5 @@
         "psr-4": {
             "Programarivm\\EasyAclBundle\\Tests\\": "tests/"
         }
-    },
-    "require-dev": {
-        "symfony/phpunit-bridge": "^5.0",
-        "symfony/framework-bundle": "^5.0",
-        "symfony/browser-kit": "^5.0"
     }
 }
