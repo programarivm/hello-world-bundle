@@ -6,16 +6,14 @@
 
     <services>
         <service id="programarivm_easy_acl.lorem_ipsum" class="Programarivm\EasyAclBundle\LoremIpsum" public="true">
-            <argument type="service" id="programarivm_easy_acl.word_provider" />
+            <argument type="collection" />
         </service>
-
-        <service id="programarivm_easy_acl.programarivm_word_provider" class="Programarivm\EasyAclBundle\WordProvider" />
 
         <service id="programarivm_easy_acl.word_provider" class="Programarivm\EasyAclBundle\WordProvider">
             <tag name="programarivm_easy_acl_word_provider" />
         </service>
 
-        <service id="programarivm_easy_acl.word_provider" alias="programarivm_easy_acl.programarivm_word_provider" public="false" />
+        <service id="Programarivm\EasyAclBundle\WordProvider" alias="programarivm_easy_acl.word_provider" public="false" />
         <service id="Programarivm\EasyAclBundle\LoremIpsum" alias="programarivm_easy_acl.lorem_ipsum" public="false" />
     </services>
 </container>
