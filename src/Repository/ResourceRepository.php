@@ -1,8 +1,8 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\Repository;
+namespace Programarivm\HelloWorldBundle\Repository;
 
-use Programarivm\EasyAclBundle\Entity\Resource;
+use Programarivm\HelloWorldBundle\Entity\Resource;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace Programarivm\EasyAclBundle;
+namespace Programarivm\HelloWorldBundle;
 
-use Programarivm\EasyAclBundle\DependencyInjection\ProgramarivmEasyAclExtension;
+use Programarivm\HelloWorldBundle\DependencyInjection\ProgramarivmHelloWorldExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class EasyAclBundle extends Bundle
+class HelloWorldBundle extends Bundle
 {
     public function getContainerExtension()
     {
         if (null === $this->extension) {
-            $this->extension = new ProgramarivmEasyAclExtension();
+            $this->extension = new ProgramarivmHelloWorldExtension();
         }
 
         return $this->extension;

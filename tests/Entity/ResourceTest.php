@@ -1,8 +1,8 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\Tests\Entity;
+namespace Programarivm\HelloWorldBundle\Tests\Entity;
 
-use Programarivm\EasyAclBundle\Entity\Resource;
+use Programarivm\HelloWorldBundle\Entity\Resource;
 use PHPUnit\Framework\TestCase;
 
 class ResourceTest extends TestCase

@@ -5,10 +5,8 @@
         http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="programarivm_easy_acl.lorem_ipsum" class="Programarivm\EasyAclBundle\LoremIpsum" public="true">
+        <service id="programarivm.hello_world" class="Programarivm\HelloWorldBundle\LoremIpsum" public="true">
             <argument type="collection" />
         </service>
-
-        <service id="Programarivm\EasyAclBundle\LoremIpsum" alias="programarivm_easy_acl.lorem_ipsum" public="false" />
     </services>
 </container>

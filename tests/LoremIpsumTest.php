@@ -1,8 +1,8 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\Tests;
+namespace Programarivm\HelloWorldBundle\Tests;
 
-use Programarivm\EasyAclBundle\LoremIpsum;
+use Programarivm\HelloWorldBundle\LoremIpsum;
 use PHPUnit\Framework\TestCase;
 
 class LoremIpsumTest extends TestCase

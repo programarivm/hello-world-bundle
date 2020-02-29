@@ -1,8 +1,8 @@
 <?php
 
-namespace Programarivm\EasyAclBundle;
+namespace Programarivm\HelloWorldBundle;
 
-class LoremIpsum
+class HelloWorld
 {
     private $unicornsAreReal;
 
@@ -16,6 +16,6 @@ class LoremIpsum
 
     public function speak(): string
     {
-        return 'lorem ipsum';
+        return 'Hello world!';
     }
 }

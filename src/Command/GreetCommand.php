@@ -1,6 +1,6 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\Command;
+namespace Programarivm\HelloWorldBundle\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class GreetCommand extends Command
 {
-    protected static $defaultName = 'easy-acl:greet';
+    protected static $defaultName = 'hello-world:greet';
 
     protected function configure()
     {

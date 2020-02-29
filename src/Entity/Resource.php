@@ -1,6 +1,6 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\Entity;
+namespace Programarivm\HelloWorldBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

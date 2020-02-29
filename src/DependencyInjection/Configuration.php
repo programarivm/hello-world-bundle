@@ -1,6 +1,6 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\DependencyInjection;
+namespace Programarivm\HelloWorldBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -9,7 +9,7 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('programarivm_easy_acl');
+        $treeBuilder = new TreeBuilder('programarivm_hello_world');
 
         $treeBuilder
             ->getRootNode()
