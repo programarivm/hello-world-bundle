@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 class ResourceTest extends TestCase
 {
     /**
-     * @dataProvider txtData
+     * @dataProvider sampleData
      * @test
      */
     public function setters_and_getters($name, $method, $path)
@@ -33,7 +33,7 @@ class ResourceTest extends TestCase
         $this->assertEquals($expected, $actual);
     }
 
-    public function resourceData()
+    public function sampleData()
     {
         return [
             ['homepage', 'ANY', '/'],
