@@ -7,6 +7,9 @@ use PHPUnit\Framework\TestCase;
 
 class HelloWorldTest extends TestCase
 {
+    /**
+     * @test
+     */
     public function signal()
     {
         $helloWorld = new HelloWorld();
