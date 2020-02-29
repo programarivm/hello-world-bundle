@@ -3,7 +3,6 @@
 namespace Programarivm\EasyAclBundle;
 
 use Programarivm\EasyAclBundle\DependencyInjection\ProgramarivmEasyAclExtension;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class EasyAclBundle extends Bundle
