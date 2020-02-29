@@ -45,3 +45,24 @@ programarivm_hello_world:
     is_exoplanet: true
     satellites: 10
 ```
+
+A greeting command can optionally be added to your `config/services.yaml` file:
+
+```yaml
+Programarivm\HelloWorldBundle\Command\GreetCommand:
+    tags: ['console.command']
+```
+
+Then run:
+
+    php bin/console hello-world:greet
+
+### Contributions
+
+Would you help make this library better? Contributions are welcome.
+
+- Feel free to send a pull request
+- Drop an email at info@programarivm.com with the subject "Hello World Bundle"
+- Leave me a comment on [Twitter](https://twitter.com/programarivm)
+
+Many thanks.
