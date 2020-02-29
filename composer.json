@@ -19,10 +19,5 @@
         "psr-4": {
             "Programarivm\\EasyAclBundle\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Programarivm\\EasyAclBundle\\Tests\\": "tests/"
-        }
     }
 }
