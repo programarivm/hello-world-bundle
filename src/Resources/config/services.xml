@@ -5,7 +5,7 @@
         http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="programarivm.hello_world" class="Programarivm\HelloWorldBundle\LoremIpsum" public="true">
+        <service id="programarivm.hello_world" class="Programarivm\HelloWorldBundle\HelloWorld" public="true">
             <argument type="collection" />
         </service>
     </services>

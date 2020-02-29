@@ -4,18 +4,23 @@ namespace Programarivm\HelloWorldBundle;
 
 class HelloWorld
 {
-    private $unicornsAreReal;
+    private $name;
 
-    private $minSunshine;
+    private $isExoplanet;
 
-    public function __construct(bool $unicornsAreReal = true, $minSunshine = 3)
+    private $satellites;
+
+    public function __construct(string $name = 'programarivm', bool $isExoplanet = true, int $satellites = 3)
     {
-        $this->unicornsAreReal = $unicornsAreReal;
-        $this->minSunshine = $minSunshine;
+        $this->name = $name;
+        $this->isExoplanet = $isExoplanet;
+        $this->satellites = $satellites;
     }
 
-    public function speak(): string
+    public function signal(): string
     {
-        return 'Hello world!';
+        $isExoplanet = var_export($this->isExoplanet, true);
+
+        return "Hello world! Name: {$this->name}. Exoplanet: {$isExoplanet}. Satellites: {$this->satellites}.";
     }
 }

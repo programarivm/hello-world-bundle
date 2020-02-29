@@ -18,8 +18,9 @@ class ProgramarivmHelloWorldExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $definition = $container->getDefinition('programarivm.hello_world');
-        $definition->setArgument(1, $config['unicorns_are_real']);
-        $definition->setArgument(2, $config['min_sunshine']);
+        $definition->setArgument(1, $config['name']);
+        $definition->setArgument(2, $config['is_exoplanet']);
+        $definition->setArgument(3, $config['satellites']);
     }
 
     public function getAlias()
