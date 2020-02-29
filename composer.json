@@ -1,6 +1,6 @@
 {
     "name": "programarivm/hello-world-bundle",
-    "description": "Hello world is the simplest, ready-to-clone Symfony 5 bundle to be extended as you'd want.",
+    "description": "Hello world is a simple, ready-to-clone Symfony 5 bundle to be extended as you'd want.",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
