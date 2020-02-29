@@ -12,9 +12,11 @@ Make sure the `Programarivm\HelloWorldBundle\HelloWorldBundle` is enabled in you
 
 And... that's it!
 
+> This bundle is a simplified flavour of [`knpuniversity/lorem-ipsum-bundle`](https://github.com/programarivm/lorem-ipsum-bundle)
+
 ## Usage
 
-This bundle provides a single service to receive a radio signal from a planet far away in the galaxy, which you can autowire by using the `HelloWorld` type-hint:
+`programarivm/hello-world-bundle` provides a single service to receive a radio signal from a planet far away in the galaxy, which you can autowire by using the `HelloWorld` type-hint:
 
 ```php
 // src/Controller/SomeController.php
@@ -46,16 +48,23 @@ programarivm_hello_world:
     satellites: 10
 ```
 
-A greeting command can optionally be added to your `config/services.yaml` file:
+Finally, a greeting command can optionally be added to your `config/services.yaml` file:
 
 ```yaml
 Programarivm\HelloWorldBundle\Command\GreetCommand:
     tags: ['console.command']
 ```
 
-Then run:
+To run the command:
 
     php bin/console hello-world:greet
+
+Here is the signal received from 51 Pegasi c:
+
+    Greeting command
+    ================
+
+    Hello world! Name: 51 Pegasi c. Exoplanet: true. Satellites: 10.
 
 ### Contributions
 
