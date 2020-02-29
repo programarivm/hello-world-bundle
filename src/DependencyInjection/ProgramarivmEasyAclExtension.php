@@ -2,7 +2,6 @@
 
 namespace Programarivm\EasyAclBundle\DependencyInjection;
 
-use Programarivm\EasyAclBundle\WordProviderInterface;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
@@ -22,9 +21,6 @@ class ProgramarivmEasyAclExtension extends Extension
         $definition = $container->getDefinition('programarivm_easy_acl.lorem_ipsum');
         $definition->setArgument(1, $config['unicorns_are_real']);
         $definition->setArgument(2, $config['min_sunshine']);
-
-        $container->registerForAutoconfiguration(WordProviderInterface::class)
-            ->addTag('programarivm_easy_acl_word_provider');
     }
 
     public function getAlias()
