@@ -12,7 +12,7 @@ class HelloWorldTest extends TestCase
      */
     public function signal()
     {
-        $helloWorld = new HelloWorld();
+        $helloWorld = new HelloWorld([]);
 
         $this->assertStringStartsWith('Hello world!', $helloWorld->signal());
     }
