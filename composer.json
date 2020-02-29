@@ -1,6 +1,6 @@
 {
-    "name": "programarivm/easy-acl-bundle",
-    "description": "Easy access control list (ACL) bundle",
+    "name": "programarivm/hello-world-bundle",
+    "description": "Hello world is the simplest, ready-to-clone Symfony 5 bundle to be extended as you'd want.",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Programarivm\\EasyAclBundle\\": "src/"
+            "Programarivm\\HelloWorldBundle\\": "src/"
         }
     }
 }
