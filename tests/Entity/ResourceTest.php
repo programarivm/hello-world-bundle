@@ -1,6 +1,6 @@
 <?php
 
-namespace Programarivm\EasyAclBundle\Tests;
+namespace Programarivm\EasyAclBundle\Tests\Entity;
 
 use Programarivm\EasyAclBundle\Entity\Resource;
 use PHPUnit\Framework\TestCase;
