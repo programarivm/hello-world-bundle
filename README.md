@@ -66,6 +66,10 @@ Here is the signal received from 51 Pegasi c:
 
     Hello world! Name: 51 Pegasi c. Exoplanet: true. Satellites: 10.
 
+### Testing
+
+`programarivm/hello-world-bundle` is developed and tested with the help of [Zebra](https://github.com/programarivm/zebra) which is a Symfony 5 app behaving as a host in order to develop and test Symfony 5 bundles.
+
 ### Contributions
 
 Would you help make this library better? Contributions are welcome.
